@@ -1,0 +1,10 @@
+C:\Users\acer\source\repos\Tugas_modul8\bin\Debug\Tugas_modul8.exe.config
+C:\Users\acer\source\repos\Tugas_modul8\bin\Debug\Tugas_modul8.exe
+C:\Users\acer\source\repos\Tugas_modul8\bin\Debug\Tugas_modul8.pdb
+C:\Users\acer\source\repos\Tugas_modul8\obj\Debug\Tugas_modul8.csprojAssemblyReference.cache
+C:\Users\acer\source\repos\Tugas_modul8\obj\Debug\Tugas_modul8.Form1.resources
+C:\Users\acer\source\repos\Tugas_modul8\obj\Debug\Tugas_modul8.Properties.Resources.resources
+C:\Users\acer\source\repos\Tugas_modul8\obj\Debug\Tugas_modul8.csproj.GenerateResource.cache
+C:\Users\acer\source\repos\Tugas_modul8\obj\Debug\Tugas_modul8.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\Tugas_modul8\obj\Debug\Tugas_modul8.exe
+C:\Users\acer\source\repos\Tugas_modul8\obj\Debug\Tugas_modul8.pdb
