@@ -18,3 +18,13 @@ C:\Users\Dava Safgi\OneDrive\File Program\Rental_mobil\Tugas_modul8\obj\Debug\Tu
 C:\Users\Dava Safgi\OneDrive\File Program\Rental_mobil\Tugas_modul8\obj\Debug\Tugas_modul8.csproj.CoreCompileInputs.cache
 C:\Users\Dava Safgi\OneDrive\File Program\Rental_mobil\Tugas_modul8\obj\Debug\Tugas_modul8.exe
 C:\Users\Dava Safgi\OneDrive\File Program\Rental_mobil\Tugas_modul8\obj\Debug\Tugas_modul8.pdb
+F:\KULIAH\1.PRATIKUM DKP\modul 8\tugas\Tugas_modul8\bin\Debug\Tugas_modul8.exe.config
+F:\KULIAH\1.PRATIKUM DKP\modul 8\tugas\Tugas_modul8\bin\Debug\Tugas_modul8.exe
+F:\KULIAH\1.PRATIKUM DKP\modul 8\tugas\Tugas_modul8\bin\Debug\Tugas_modul8.pdb
+F:\KULIAH\1.PRATIKUM DKP\modul 8\tugas\Tugas_modul8\obj\Debug\Tugas_modul8.csprojAssemblyReference.cache
+F:\KULIAH\1.PRATIKUM DKP\modul 8\tugas\Tugas_modul8\obj\Debug\Tugas_modul8.Form1.resources
+F:\KULIAH\1.PRATIKUM DKP\modul 8\tugas\Tugas_modul8\obj\Debug\Tugas_modul8.Properties.Resources.resources
+F:\KULIAH\1.PRATIKUM DKP\modul 8\tugas\Tugas_modul8\obj\Debug\Tugas_modul8.csproj.GenerateResource.cache
+F:\KULIAH\1.PRATIKUM DKP\modul 8\tugas\Tugas_modul8\obj\Debug\Tugas_modul8.csproj.CoreCompileInputs.cache
+F:\KULIAH\1.PRATIKUM DKP\modul 8\tugas\Tugas_modul8\obj\Debug\Tugas_modul8.exe
+F:\KULIAH\1.PRATIKUM DKP\modul 8\tugas\Tugas_modul8\obj\Debug\Tugas_modul8.pdb

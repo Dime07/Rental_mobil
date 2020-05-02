@@ -31,145 +31,133 @@ namespace Tugas_modul8
         {
             
         }
-
+        private float hitung (float hari,float harga,float supir)
+        {
+            return (hari * harga) + (hari * supir);
+        }
         private void button1_Click(object sender, EventArgs e)
         {
-            float hari, hasil, harga, alat;
+            float hari, hasil, harga, supir;
+            for (int i = 1; i <= 3; i++)
+            {
+                if (i == 1)
+                {
+                    string message = "TELAT MENGEMBALIKAN DENDA Rp.300.000/hari";
+                    string title = "Peringatan";
+                    MessageBox.Show(message, title);
+                }
+                else if (i == 2)
+                {
+                    string message = "JANGAN SAMPAI TELAT";
+                    string title = "Peringatan";
+                    MessageBox.Show(message, title);
+                }
+                else if (i == 3)
+                {
+                    string message = "Terima kasih telah merental mobil ditempat kami";
+                    string title = "Peringatan";
+                    MessageBox.Show(message, title);
+                }
+            }
+            Console.ReadLine();
 
             if (comboBox1.SelectedItem == "Avanza")
-            { 
-                if (comboBox2.SelectedItem == "Payung")
+            {
+                if (comboBox2.SelectedItem == "IYA")
                 {
                     harga = 300000;
-                    alat = 30000;
+                    supir = 30000;
                     hari = float.Parse(this.hari.Text);
-                    hasil = (hari * harga) + alat;
+                    hasil = hitung(hari, harga, supir);
                     this.harga.Text = Convert.ToString(hasil);
                 }
-                else if (comboBox2.SelectedItem == "P3K")
+                else if (comboBox2.SelectedItem == "TIDAK")
                 {
                     harga = 300000;
-                    alat = 10000;
+                    supir = 0;
                     hari = float.Parse(this.hari.Text);
-                    hasil = (hari * harga) + alat;
-                    this.harga.Text = Convert.ToString(hasil);
-                }
-                else if (comboBox2.SelectedItem == "Tidak Usah")
-                {
-                    harga = 300000;
-                    alat = 0;
-                    hari = float.Parse(this.hari.Text);
-                    hasil = (hari * harga) + alat;
+                    hasil = (hari * harga) + supir;
                     this.harga.Text = Convert.ToString(hasil);
                 }
 
             }
             else if (comboBox1.SelectedItem == "Innova")
             {
-                if (comboBox2.SelectedItem == "Payung")
+                if (comboBox2.SelectedItem == "IYA")
                 {
                     harga = 450000;
-                    alat = 30000;
+                    supir = 30000;
                     hari = float.Parse(this.hari.Text);
-                    hasil = (hari * harga) + alat;
+                    hasil = (hari * harga) + supir;
                     this.harga.Text = Convert.ToString(hasil);
                 }
-                else if (comboBox2.SelectedItem == "P3K")
+                else if (comboBox2.SelectedItem == "TIDAK")
                 {
                     harga = 450000;
-                    alat = 10000;
+                    supir = 0;
                     hari = float.Parse(this.hari.Text);
-                    hasil = (hari * harga) + alat;
+                    hasil = (hari * harga) + supir;
                     this.harga.Text = Convert.ToString(hasil);
                 }
-                else if (comboBox2.SelectedItem == "Tidak Usah")
+                
+            }
+            else if (comboBox1.SelectedItem == "Rush")
+            {
+                if (comboBox2.SelectedItem == "IYA")
                 {
-                    harga = 450000;
-                    alat = 0;
+                    harga = 350000;
+                    supir = 30000;
                     hari = float.Parse(this.hari.Text);
-                    hasil = (hari * harga) + alat;
+                    hasil = (hari * harga) + supir;
                     this.harga.Text = Convert.ToString(hasil);
                 }
-                else if (comboBox1.SelectedItem == "Rush")
+                else if (comboBox2.SelectedItem == "TIDAK")
                 {
-                    if (comboBox2.SelectedItem == "Payung")
-                    {
-                        harga = 350000;
-                        alat = 30000;
-                        hari = float.Parse(this.hari.Text);
-                        hasil = (hari * harga) + alat;
-                        this.harga.Text = Convert.ToString(hasil);
-                    }
-                    else if (comboBox2.SelectedItem == "P3K")
-                    {
-                        harga = 350000;
-                        alat = 10000;
-                        hari = float.Parse(this.hari.Text);
-                        hasil = (hari * harga) + alat;
-                        this.harga.Text = Convert.ToString(hasil);
-                    }
-                    else if (comboBox2.SelectedItem == "Tidak Usah")
-                    {
-                        harga = 350000;
-                        alat = 0;
-                        hari = float.Parse(this.hari.Text);
-                        hasil = (hari * harga) + alat;
-                        this.harga.Text = Convert.ToString(hasil);
-                    }
+                    harga = 350000;
+                    supir = 0;
+                    hari = float.Parse(this.hari.Text);
+                    hasil = (hari * harga) + supir;
+                    this.harga.Text = Convert.ToString(hasil);
                 }
-                else if (comboBox1.SelectedItem == "Fortuner")
+                
+            }
+            else if (comboBox1.SelectedItem == "Fortuner")
+            {
+                if (comboBox2.SelectedItem == "IYA")
                 {
-                    if (comboBox2.SelectedItem == "Payung")
-                    {
-                        harga = 650000;
-                        alat = 30000;
-                        hari = float.Parse(this.hari.Text);
-                        hasil = (hari * harga) + alat;
-                        this.harga.Text = Convert.ToString(hasil);
-                    }
-                    else if (comboBox2.SelectedItem == "P3K")
-                    {
-                        harga = 650000;
-                        alat = 10000;
-                        hari = float.Parse(this.hari.Text);
-                        hasil = (hari * harga) + alat;
-                        this.harga.Text = Convert.ToString(hasil);
-                    }
-                    else if (comboBox2.SelectedItem == "Tidak Usah")
-                    {
-                        harga = 650000;
-                        alat = 0;
-                        hari = float.Parse(this.hari.Text);
-                        hasil = (hari * harga) + alat;
-                        this.harga.Text = Convert.ToString(hasil);
-                    }
+                    harga = 650000;
+                    supir = 30000;
+                    hari = float.Parse(this.hari.Text);
+                    hasil = (hari * harga) + supir;
+                    this.harga.Text = Convert.ToString(hasil);
                 }
-                else if (comboBox1.SelectedItem =="Alphard")
+                else if (comboBox2.SelectedItem == "TIDAK")
                 {
-                    if (comboBox2.SelectedItem == "Payung")
-                    {
-                        harga = 1000000;
-                        alat = 30000;
-                        hari = float.Parse(this.hari.Text);
-                        hasil = (hari * harga) + alat;
-                        this.harga.Text = Convert.ToString(hasil);
-                    }
-                    else if (comboBox2.SelectedItem == "P3K")
-                    {
-                        harga = 1000000;
-                        alat = 10000;
-                        hari = float.Parse(this.hari.Text);
-                        hasil = (hari * harga) + alat;
-                        this.harga.Text = Convert.ToString(hasil);
-                    }
-                    else if (comboBox2.SelectedItem == "Tidak Usah")
-                    {
-                        harga = 1000000;
-                        alat = 0;
-                        hari = float.Parse(this.hari.Text);
-                        hasil = (hari * harga) + alat;
-                        this.harga.Text = Convert.ToString(hasil);
-                    }
+                    harga = 650000;
+                    supir = 10000;
+                    hari = float.Parse(this.hari.Text);
+                    hasil = (hari * harga) + supir;
+                    this.harga.Text = Convert.ToString(hasil);
+                }
+                
+            }
+            else if (comboBox1.SelectedItem == "Alphard")
+            {
+                if (comboBox2.SelectedItem == "IYA")
+                {
+                    harga = 1000000;
+                    supir = 30000;
+                    hari = float.Parse(this.hari.Text);
+                    hasil = (hari * harga) + supir;
+                    this.harga.Text = Convert.ToString(hasil);
+                }
+                else if (comboBox2.SelectedItem == "TIDAK")
+                {
+                    harga = 1000000;
+                    supir = 10000;
+                    hari = float.Parse(this.hari.Text);
+                    hasil = (hari * harga) + supir;
+                    this.harga.Text = Convert.ToString(hasil);
                 }
             }
         }
